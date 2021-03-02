@@ -1,0 +1,35 @@
+{% extends 'info/base.html' %}
+
+{% block head %}
+
+<title>Blog | Chiao Lun Hsu</title>
+{% load static %}
+<link rel="stylesheet" href="{% static 'blog/blog.css' %}">
+
+{% endblock %}
+
+
+{% block content %}
+{% load static %}
+
+<div class="column section">
+    <h1 class="left-column blog-heading">Blog</h1>
+
+    <div class="right-column blog-detail">
+        {% for blog in blogs %}
+
+        <a href="{% url 'blog:detail_blog' blog.id %}">
+            <h2 class="blog-title">{{ blog.title|safe }}</h2>
+        </a>
+        <p class="blog-date">{{ blog.date|date:'M d Y'|upper }}</p>
+        <p class="blog-content">{{ blog.description|striptags|truncatechars:100 }}
+        </p>
+
+        {% endfor %}
+    </div>
+
+
+</div>
+
+
+{% endblock %}

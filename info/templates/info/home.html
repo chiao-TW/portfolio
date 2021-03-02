@@ -1,0 +1,209 @@
+{% extends 'info/base.html' %}
+
+{% block head %}
+
+<title>Info | Chiao Lun Hsu</title>
+
+{% endblock %}
+
+{% block content %}
+
+<!-- Section (HeroPage) -->
+<div class="section">
+    <div class="heading">
+        <span class="heading-title">BIO</span>
+        <h1 class="self-description">
+            Hey! I’m Chiao, a
+            Software Developer <br>
+            specialize in Backend Development<br>
+            based in Taiwan.
+        </h1>
+    </div>
+    <div class="column">
+        <div class="left-column">
+            <div class="left-column-left">
+                <span class="left-column-title">
+                    E-M ▻
+                </span>
+                <a href="mailto:chiaolunhsu@gmail.com">chiaolunhsu@gmail.com</a>
+            </div>
+            <div class="left-column-right">
+                <span class="left-column-title">
+                    Linkedin ▻
+                </span>
+                <a href="https://www.linkedin.com/in/chiaolunhsu/" target="_blank">linkedin.com/in/chiaolunhsu</a>
+            </div>
+            <div class="left-column-left">
+                <span class="left-column-title">
+                    Resume ▻
+                </span>
+                {% load static %}
+                <a href='{%static "info/Resume.pdf" %}' target="_blank">click to open</a>
+            </div>
+            <!-- <div id="Resume">
+                    Resume
+                </div> -->
+        </div>
+        <div class="right-column">
+            <span class="right-column-title">Skills</span>
+            <ul class="right-column-items">
+                <div>
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                    <!-- <li>Matlab</li> -->
+                    <li>C++/Pascal</li>
+                </div>
+                <div>
+                    <li>Backend Dev</li>
+                    <li>Frontend Dev</li>
+                    <li>DevOps Service</li>
+                    <li>Data Visualization</li>
+                    <li>RESTful API</li>
+                </div>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<hr>
+
+<!-- Section (SkillSet) -->
+<div class="section">
+    <div class="heading">
+        <span class="heading-title">SKILLSET</span>
+        <div id="root">
+            <h1 id="programming-language">
+                Programming Languages
+            </h1>
+            <h1 id="web-service">
+                Web Service
+            </h1>
+        </div>
+    </div>
+
+
+    <!-- Trees -->
+
+    <div id="tree">
+        <div id="trees_1">
+            <h2 class="circle_1" id="tree_1-1">Python</h2>
+            <h2 class="circle_2" id="tree_1-2">JavaScript</h2>
+            <h2 class="circle_3" id="tree_1-3">Matlab</h2>
+        </div>
+
+        <div id="trees_2">
+            <h2 class="circle_1" id="tree_2-1">Frontend</h2>
+            <h2 class="circle_2" id="tree_2-2">Backend</h2>
+            <h2 class="circle_3" id="tree_2-3">DevOps</h2>
+        </div>
+
+        <div id="trees_1-1">
+            <h2 class="circle_1" id="tree_1-1-1">RESTful API</h2>
+            <h2 class="circle_2" id="tree_1-1-2">Data Analysis</h2>
+            <h2 class="circle_3" id="tree_1-1-3">Machine Learning</h2>
+        </div>
+
+        <div id="trees_1-2">
+            <h2 class="circle_1" id="tree_1-2-1">Web Development</h2>
+            <h2 class="circle_2" id="tree_1-2-2">Data Visualization</h2>
+        </div>
+
+        <div id="trees_1-3">
+            <h2 class="circle_1" id="tree_1-3-1">Numerical Mathematics</h2>
+            <h2 class="circle_2" id="tree_1-3-2">Engineering Problems</h2>
+        </div>
+
+        <div id="trees_2-1">
+            <h2 class="circle_1" id="tree_2-1-1">HTML/CSS/JS</h2>
+            <h2 class="circle_2" id="tree_2-1-2">Bootstrap</h2>
+            <h2 class="circle_3" id="tree_2-1-3">Figma/AI</h2>
+        </div>
+
+        <div id="trees_2-2">
+            <h2 class="circle_1" id="tree_2-2-1">Version Control</h2>
+            <h2 class="circle_2" id="tree_2-2-2">Database</h2>
+            <h2 class="circle_3" id="tree_2-2-3">APIs</h2>
+        </div>
+
+        <div id="trees_2-3">
+            <h2 class="circle_1" id="tree_2-3-1">CI/CD</h2>
+            <h2 class="circle_2" id="tree_2-3-2">Container</h2>
+            <h2 class="circle_3" id="tree_2-3-3">Cloud</h2>
+        </div>
+
+        <div id="trees_1-1-1">
+            <h2 class="circle_1" id="tree_1-1-1-1">Django</h2>
+            <h2 class="circle_2" id="tree_1-1-1-2">Flask</h2>
+        </div>
+
+        <div id="trees_1-1-2">
+            <h2 class="circle_1" id="tree_1-1-2-1">Numpy</h2>
+            <h2 class="circle_2" id="tree_1-1-2-2">Pandas</h2>
+            <h2 class="circle_3" id="tree_1-1-2-3">Matlibplot</h2>
+        </div>
+
+        <div id="trees_1-1-3">
+            <h2 class="circle_1" id="tree_1-1-3-1">Regression</h2>
+            <h2 class="circle_2" id="tree_1-1-3-2">Clustering</h2>
+            <h2 class="circle_3" id="tree_1-1-3-3">Classificate</h2>
+        </div>
+
+        <div id="trees_1-2-1">
+            <h2 class="circle_1" id="tree_1-2-1-1">React.js</h2>
+            <h2 class="circle_2" id="tree_1-2-1-2">Express.js</h2>
+        </div>
+
+        <div id="trees_1-2-2">
+            <h2 class="circle_1" id="tree_1-2-2-1">D3.js</h2>
+            <h2 class="circle_2" id="tree_1-2-2-2">chart.js</h2>
+        </div>
+
+        <div id="trees_1-3-1">
+            <h2 class="circle_1" id="tree_1-3-1-1">DLL</h2>
+            <h2 class="circle_2" id="tree_1-3-1-2">ctypes</h2>
+        </div>
+
+        <div id="trees_1-3-2">
+            <h2 class="circle_1" id="tree_1-3-2-1">woo</h2>
+            <h2 class="circle_2" id="tree_1-3-2-2">hoo</h2>
+        </div>
+
+        <div id="trees_2-1-1">
+            <h2 class="circle_1" id="tree_2-1-1-1">Layouts</h2>
+            <h2 class="circle_2" id="tree_2-1-1-2">DOM</h2>
+            <h2 class="circle_3" id="tree_2-1-1-3">Ajax</h2>
+        </div>
+
+        <div id="trees_2-2-1">
+            <h2 class="circle_1" id="tree_2-2-1-1">Git/Github</h2>
+        </div>
+
+        <div id="trees_2-2-2">
+            <h2 class="circle_1" id="tree_2-2-2-1">MongoDB</h2>
+            <h2 class="circle_2" id="tree_2-2-2-2">Postgres</h2>
+        </div>
+
+        <div id="trees_2-2-3">
+            <h2 class="circle_1" id="tree_2-2-3-1">RESTful</h2>
+            <h2 class="circle_2" id="tree_2-2-3-2">CRUD</h2>
+        </div>
+
+        <div id="trees_2-3-1">
+            <h2 class="circle_1" id="tree_2-2-1-1">TravisCI</h2>
+        </div>
+
+        <div id="trees_2-3-2">
+            <h2 class="circle_1" id="tree_2-2-2-1">Docker</h2>
+        </div>
+
+        <div id="trees_2-3-3">
+            <h2 class="circle_1" id="tree_2-2-3-1">AWS</h2>
+            <!-- <h2 id="tree_2-2-3-2">➁ Digital Ocean</h2> -->
+        </div>
+    </div>
+
+</div>
+{% load static %}
+<script src="{% static 'info/style.js' %}"></script>
+
+{% endblock %}

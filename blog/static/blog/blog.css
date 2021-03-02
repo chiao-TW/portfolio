@@ -1,0 +1,24 @@
+.heading {
+	margin: 4rem 2em 4em;
+}
+
+.blog-heading {
+	/* padding: 0.5em 0.12em; */
+	width: 100%;
+	font-size: var(--ms8);
+
+	text-align: left;
+	font-weight: 900;
+}
+
+.blog-detail {
+	padding-top: 4em;
+}
+
+.blog-title {
+	font-size: var(--ms2);
+}
+
+.blog-content {
+	padding-bottom: 4em;
+}

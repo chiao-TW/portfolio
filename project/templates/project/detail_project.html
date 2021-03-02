@@ -1,0 +1,79 @@
+{% extends 'info/base.html' %}
+
+{% load static %}
+{% block head %}
+
+
+<link rel="stylesheet" href="{% static 'project/detail_project.css' %}">
+
+{% endblock %}
+
+{% block content %}
+
+<div class="project-description">
+    <span class="project-title circle_{{ project.id }}">{{ project.title }}</span>
+    <h1 class="slogan">
+        {{ project.slogan }}
+    </h1>
+
+    <div class="column">
+        <div class="left-column">
+            <span class="time-stamp">
+                {{ project.time }}
+            </span>
+            <div class="tech-tags">
+                {{ project.tag|safe }}
+            </div>
+        </div>
+        <div class="right-column introduction">
+            {{ project.introduction|safe }}
+        </div>
+    </div>
+</div>
+
+<!-- Images and Notes -->
+<!-- Section I -->
+<div class="images-notes">
+    <div class="note">
+
+        {{ project.content_1|safe }}
+
+    </div>
+
+    <div class="image">
+        <img src="{{ project.image_1.url}}">
+    </div>
+</div>
+
+<!-- Section II -->
+<div class="images-notes" class="reverse-img">
+    <div class="image">
+        <img src="{{ project.image_2.url}}">
+    </div>
+
+    <div class="note">
+
+        {{ project.content_2|safe }}
+
+    </div>
+</div>
+
+<!-- Section III -->
+
+<div class="images-notes">
+    <div class="note">
+
+        {{ project.content_3|safe }}
+
+    </div>
+
+    <div class="image">
+        <img src="{{ project.image_3.url}}">
+    </div>
+</div>
+
+<h5 class="project-detail">
+    <a href="{% url 'project:all_project' %}">BACK</a>
+</h5>
+
+{% endblock %}

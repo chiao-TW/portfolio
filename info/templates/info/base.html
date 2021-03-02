@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'info/style.css' %}">
+        {% block head %}{% endblock %}
+        {% load static %}
+        <link rel="icon" type="image/png" href="{% static 'info/logo.svg' %}">
+
+    </head>
+
+    <body>
+        <div class="main">
+            <!-- Navigation Bar -->
+            <header>
+                <nav>
+                    <ul class="nav-links">
+                        <li>
+                            <a href="{% url 'home' %}">INFO</a>
+                        </li>
+                        <li>
+                            <a href="{% url 'project:all_project' %}">PROJECT</a>
+                            <a href="{% url 'blog:all_blog' %}">BLOG</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        {% block content %}{% endblock %}
+
+    </body>
+
+
+</html>

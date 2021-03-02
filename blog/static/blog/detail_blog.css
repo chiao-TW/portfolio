@@ -1,0 +1,33 @@
+.blog-detail {
+	margin: 5rem auto 1em;
+	width: 50%;
+}
+
+@media (max-width: 768px) {
+	.blog-detail {
+		width: 70%;
+	}
+}
+
+.blog-detail h1 {
+	font-size: var(--ms4);
+}
+
+.blog-detail h4 {
+	font-size: var(--ms0);
+	padding-top: 1em;
+	text-align: right;
+}
+
+.blog-detail p {
+	font-size: var(--ms0);
+	padding-top: 1.5em;
+	text-align: justify;
+	line-height: 1.5;
+}
+
+.blog-detail h5 {
+	font-size: var(--ms0);
+	padding-top: 3em;
+	text-align: center;
+}

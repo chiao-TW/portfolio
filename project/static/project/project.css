@@ -1,0 +1,57 @@
+:root {
+	--ms-2: 0.56rem;
+	--ms-1: 0.75rem;
+	--ms0: 1rem;
+	--ms1: 1.33rem;
+	--ms2: 1.78rem;
+	--ms3: 2.37rem;
+	--ms4: 3.16rem;
+	--ms5: 4.21rem;
+	--ms6: 5.61rem;
+	--ms7: 7.48rem;
+	--ms8: 9.97rem;
+	--ms9: 13.29rem;
+	--ms10: 17.71rem;
+	--ms11: 23.61rem;
+	--ms12: 31.47rem;
+}
+
+/* Projects */
+
+.projects-title {
+	display: flex;
+}
+
+.projects-title h1 {
+	padding-right: 1em;
+}
+
+.projects-description {
+	margin-top: 5em;
+	display: none;
+	height: 10em;
+	font-size: 1.1em;
+	line-height: 1.4;
+}
+
+#blank {
+	display: block;
+	color: white;
+	width: 100%;
+	height: 8em;
+}
+
+@media (max-width: 768px) {
+	.projects {
+		margin-top: 5em;
+	}
+
+	.projects-description {
+		margin-top: 5em;
+		font-size: var(--ms-1);
+	}
+
+	#blank {
+		height: 11em;
+	}
+}

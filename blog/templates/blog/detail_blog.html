@@ -1,0 +1,33 @@
+{% extends 'info/base.html' %}
+
+{% block head %}
+
+<title>Blog | Chiao Lun Hsu</title>
+{% load static %}
+<link rel="stylesheet" href="{% static 'blog/detail_blog.css' %}">
+
+{% endblock %}
+
+
+{% block content %}
+{% load static %}
+
+<div class="blog-detail">
+    <h1>
+        {{ blog.title|safe }}
+    </h1>
+
+    <h4>
+        {{ blog.date|date:'F j Y' }}
+    </h4>
+
+    <p>
+        {{ blog.description|safe }}
+    </p>
+    <h5>
+        <a href="{% url 'blog:all_blog' %}">BACK</a>
+    </h5>
+</div>
+
+
+{% endblock %}

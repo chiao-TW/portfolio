@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 360.28 383.06" enable-background="new 0 0 360.28 383.06" xml:space="preserve">
+<g id="Layer_4">
+</g>
+<g id="portfolio_x5F_output">
+	<g>
+		<rect y="13.33" fill="#FFFFFF" width="360.28" height="369.73"/>
+	</g>
+	<g>
+		<path fill="#282829" d="M360.28,0H7.09C3.17,0,0,3.17,0,7.09v6.24h360.28"/>
+	</g>
+	<g>
+		<circle fill="#EE1C24" cx="9.02" cy="6.67" r="3.14"/>
+	</g>
+	<g>
+		<circle fill="#41B652" cx="28.78" cy="6.67" r="3.14"/>
+	</g>
+	<g>
+		<circle fill="#FFC02D" cx="18.9" cy="6.67" r="3.14"/>
+	</g>
+	<g>
+		<rect x="-1.21" fill="none" width="361.49" height="383.06"/>
+	</g>
+	<path fill="#E6E7E8" stroke="#000000" stroke-miterlimit="10" d="M247.56,107.42h-83.14c-3.02,0-5.47-2.45-5.47-5.47V86.77
+		c0-3.02,2.45-5.47,5.47-5.47h83.14c3.02,0,5.47,2.45,5.47,5.47v15.19C253.03,104.98,250.58,107.42,247.56,107.42z"/>
+	<g>
+		<rect x="14.95" y="80.8" fill="#FFFFFF" width="130.88" height="81.85"/>
+		<path d="M145.33,81.3v80.85H15.45V81.3H145.33 M146.33,80.3h-1H15.45h-1v1v80.85v1h1h129.88h1v-1V81.3V80.3L146.33,80.3z"/>
+	</g>
+	<rect x="15.45" y="105.16" fill="#E6E7E8" width="129.88" height="17.33"/>
+	<rect x="15.45" y="81.3" width="129.88" height="7.26"/>
+	<text transform="matrix(1 0 0 1 223.8564 147.4745)" font-family="'Arimo-Medium'" font-size="18px">Nginx</text>
+	<rect x="197.36" y="129.09" width="76.57" height="34.26"/>
+	<circle fill="#EE1C24" cx="20.07" cy="84.6" r="2.43"/>
+	<circle fill="#41B652" cx="35.36" cy="84.6" r="2.43"/>
+	<circle fill="#FFC02D" cx="27.71" cy="84.6" r="2.43"/>
+	<text transform="matrix(1 0 0 1 47.4981 102.919)" font-family="'Arimo-Medium'" font-size="10px">Fib Calculator</text>
+	<g>
+		<g>
+			<path d="M31.81,46.68c0,2.02-0.75,3.57-2.25,4.64c-1.5,1.07-3.7,1.6-6.6,1.6c-5.22,0-8.27-1.89-9.13-5.67l4.17-0.69
+				c0.28,1.09,0.83,1.89,1.66,2.38s1.96,0.74,3.41,0.74c1.51,0,2.65-0.23,3.4-0.69s1.13-1.15,1.13-2.07c0-0.59-0.17-1.07-0.51-1.45
+				s-0.83-0.7-1.46-0.95c-0.31-0.13-0.77-0.27-1.38-0.42s-1.36-0.32-2.26-0.5c-1.04-0.24-1.85-0.45-2.43-0.62s-1.05-0.34-1.41-0.5
+				s-0.69-0.34-1.03-0.53c-0.73-0.44-1.3-1.03-1.71-1.76s-0.62-1.65-0.62-2.74c0-1.87,0.7-3.29,2.1-4.29
+				c1.4-0.99,3.44-1.49,6.12-1.49c2.56,0,4.48,0.4,5.76,1.2s2.11,2.12,2.48,3.97l-4.19,0.57c-0.21-0.89-0.65-1.56-1.31-2.01
+				c-0.66-0.45-1.6-0.67-2.83-0.67c-1.31,0-2.29,0.21-2.94,0.62s-0.98,1.03-0.98,1.85c0,0.54,0.14,0.98,0.42,1.32
+				c0.28,0.34,0.69,0.63,1.24,0.88c0.52,0.23,1.63,0.53,3.33,0.89c0.99,0.21,1.84,0.42,2.55,0.61s1.28,0.37,1.71,0.55
+				c0.43,0.19,0.81,0.38,1.15,0.59c0.34,0.21,0.63,0.42,0.87,0.66c0.5,0.48,0.88,1.05,1.14,1.71S31.81,45.82,31.81,46.68z"/>
+			<path d="M44.31,35.33v17.3h-4.32v-17.3h-6.67v-3.34h17.67v3.34H44.31z"/>
+			<path d="M57.64,44.79v7.84h-4.32V31.99h10.31c2.46,0,4.36,0.53,5.7,1.59s2.01,2.58,2.01,4.56c0,1.45-0.41,2.69-1.23,3.74
+				s-1.93,1.74-3.33,2.07l5.58,8.67H67.5l-4.79-7.84H57.64z M66.99,38.32c0-0.99-0.32-1.73-0.95-2.23s-1.59-0.75-2.86-0.75h-5.54
+				v6.09h5.65c1.21,0,2.13-0.27,2.75-0.82S66.99,39.31,66.99,38.32z"/>
+			<path d="M83.57,52.92c-1.89,0-3.5-0.31-4.8-0.93s-2.3-1.53-2.97-2.72s-1.01-2.65-1.01-4.37V31.99h4.32v12.57
+				c0,1.63,0.39,2.87,1.16,3.71c0.78,0.84,1.92,1.27,3.42,1.27c1.54,0,2.73-0.44,3.56-1.33s1.25-2.15,1.25-3.8V31.99h4.32v12.69
+				c0,1.74-0.36,3.22-1.09,4.45s-1.78,2.17-3.16,2.82S85.52,52.92,83.57,52.92z"/>
+			<path d="M106.29,49.53c2.62,0,4.43-1.31,5.43-3.93l3.76,1.42c-0.81,1.99-2,3.47-3.57,4.45c-1.57,0.97-3.44,1.46-5.63,1.46
+				c-2.21,0-4.09-0.42-5.64-1.27s-2.74-2.07-3.55-3.67s-1.22-3.53-1.22-5.77c0-2.27,0.39-4.18,1.17-5.74s1.93-2.75,3.46-3.57
+				s3.39-1.22,5.6-1.22c2.42,0,4.39,0.49,5.92,1.46s2.59,2.4,3.21,4.29l-3.81,1.04c-0.32-1.04-0.96-1.86-1.9-2.47
+				s-2.05-0.92-3.33-0.92c-1.95,0-3.44,0.61-4.45,1.82c-1.01,1.21-1.52,2.98-1.52,5.32c0,1.58,0.23,2.92,0.7,4
+				c0.46,1.08,1.15,1.91,2.05,2.47C103.87,49.24,104.98,49.53,106.29,49.53z"/>
+			<path d="M127.63,35.33v17.3h-4.32v-17.3h-6.67v-3.34h17.67v3.34H127.63z"/>
+			<path d="M145.22,52.92c-1.89,0-3.5-0.31-4.8-0.93s-2.3-1.53-2.97-2.72s-1.01-2.65-1.01-4.37V31.99h4.32v12.57
+				c0,1.63,0.39,2.87,1.16,3.71c0.78,0.84,1.92,1.27,3.42,1.27c1.54,0,2.73-0.44,3.56-1.33s1.25-2.15,1.25-3.8V31.99h4.32v12.69
+				c0,1.74-0.36,3.22-1.09,4.45s-1.78,2.17-3.16,2.82S147.18,52.92,145.22,52.92z"/>
+			<path d="M162.63,44.79v7.84h-4.32V31.99h10.31c2.46,0,4.36,0.53,5.7,1.59s2.01,2.58,2.01,4.56c0,1.45-0.41,2.69-1.23,3.74
+				s-1.93,1.74-3.33,2.07l5.58,8.67h-4.86l-4.79-7.84H162.63z M171.97,38.32c0-0.99-0.32-1.73-0.95-2.23s-1.59-0.75-2.86-0.75h-5.54
+				v6.09h5.65c1.21,0,2.13-0.27,2.75-0.82S171.97,39.31,171.97,38.32z"/>
+			<path d="M196.8,49.29v3.34h-16.83V31.99h16.23v3.34h-11.91v5.19h11.02v3.34h-11.02v5.43H196.8z"/>
+		</g>
+	</g>
+	<text transform="matrix(1 0 0 1 174.6351 97.1308)" font-family="'Arimo-Medium'" font-size="10px">Development</text>
+	<text transform="matrix(1 0 0 1 211.5359 151.6696)" fill="#FFFFFF" font-family="'Arimo-Medium'" font-size="18px">Nginx</text>
+	<text transform="matrix(1 0 0 1 99.7121 224.7697)" font-family="'Arimo-Medium'" font-size="18px">Nginx</text>
+	<rect x="73.21" y="206.38" width="76.57" height="34.26"/>
+	<text transform="matrix(1 0 0 1 87.3917 228.9649)" fill="#FFFFFF" font-family="'Arimo-Medium'" font-size="18px">React</text>
+	<text transform="matrix(1 0 0 1 159.5566 289.2069)" font-family="'Arimo-Medium'" font-size="18px">Nginx</text>
+	<rect x="133.06" y="270.82" width="76.57" height="34.26"/>
+	<text transform="matrix(1 0 0 1 147.2362 293.4021)" fill="#FFFFFF" font-family="'Arimo-Medium'" font-size="18px">Redis</text>
+	<text transform="matrix(1 0 0 1 44.5465 289.2069)" font-family="'Arimo-Medium'" font-size="18px">Nginx</text>
+	<rect x="18.05" y="270.82" width="76.57" height="34.26"/>
+	<text transform="matrix(1 0 0 1 28.2307 293.4023)" fill="#FFFFFF" font-family="'Arimo-Medium'" font-size="18px">Worker</text>
+	<text transform="matrix(1 0 0 1 223.8564 224.7062)" font-family="'Arimo-Medium'" font-size="18px">R</text>
+	<rect x="197.36" y="206.32" width="76.57" height="34.26"/>
+	<text transform="matrix(1 0 0 1 205.9933 228.9013)" fill="#FFFFFF" font-family="'Arimo-Medium'" font-size="16px">Express</text>
+	<rect x="257.29" y="270.82" width="76.57" height="34.26"/>
+	<text transform="matrix(1 0 0 1 263.9243 293.402)" fill="#FFFFFF" font-family="'Arimo-Medium'" font-size="16px">Postgres</text>
+	<text transform="matrix(1 0 0 1 37.7851 116.6774)" font-family="'Arimo-Medium'" font-size="7px">Index</text>
+	<text transform="matrix(1 0 0 1 37.7848 129.0895)" font-family="'Arimo-Medium'" font-size="6px">Seen Indices: 5 7 10</text>
+	<text transform="matrix(1 0 0 1 37.785 138.14)" font-family="'Arimo-Medium'" font-size="6px">Calculated Values: </text>
+	
+		<rect x="98.13" y="109.08" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="26.74" height="10.08"/>
+	
+		<rect x="60.66" y="109.08" fill="#FFFFFF" stroke="#000000" stroke-width="0.75" stroke-miterlimit="10" width="33.88" height="10.08"/>
+	<text transform="matrix(1 0 0 1 100.4042 116.6776)" font-family="'Arimo-Medium'" font-size="7px">Submit</text>
+	<text transform="matrix(1 0 0 1 91.383 138.1402)"><tspan x="0" y="0" font-family="'Arimo-Medium'" font-size="6px">10: 89</tspan><tspan x="0" y="7.2" font-family="'Arimo-Medium'" font-size="6px">7: 21</tspan><tspan x="0" y="14.4" font-family="'Arimo-Medium'" font-size="6px">5: 8</tspan></text>
+	<g>
+		<g>
+			<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="197.36" y1="147.47" x2="152.5" y2="147.47"/>
+			<g>
+				<polygon points="153.96,142.49 145.33,147.47 153.96,152.46 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="149.78" y1="223.45" x2="190.18" y2="223.5"/>
+			<g>
+				<polygon points="188.71,228.49 197.36,223.51 188.73,218.51 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="247.45" y1="163.35" x2="247.45" y2="199.15"/>
+			<g>
+				<polygon points="242.46,197.69 247.45,206.32 252.43,197.69 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<polyline fill="none" stroke="#000000" stroke-miterlimit="10" points="230.6,163.35 230.6,182.78 111.5,182.78 111.5,199.21 			
+				"/>
+			<g>
+				<polygon points="106.51,197.75 111.5,206.38 116.48,197.75 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<polyline fill="none" stroke="#000000" stroke-miterlimit="10" points="223.86,240.64 223.86,255.85 171.34,255.85 
+				171.34,263.65 			"/>
+			<g>
+				<polygon points="166.35,262.19 171.34,270.82 176.33,262.19 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<polyline fill="none" stroke="#000000" stroke-miterlimit="10" points="247.45,240.64 247.45,255.73 295.57,255.73 
+				295.57,263.65 			"/>
+			<g>
+				<polygon points="290.59,262.19 295.57,270.82 300.56,262.19 				"/>
+			</g>
+		</g>
+	</g>
+	<rect x="133.81" y="317.02" fill="none" width="81.65" height="35.43"/>
+	<text transform="matrix(1 0 0 1 133.8089 321.9922)"><tspan x="0" y="0" font-family="'MyriadPro-Regular'" font-size="7px">Stores all indices and </tspan><tspan x="0" y="8.4" font-family="'MyriadPro-Regular'" font-size="7px">calculated values as </tspan><tspan x="0" y="16.8" font-family="'MyriadPro-Regular'" font-size="7px">key-value pairs</tspan></text>
+	<rect x="18.05" y="317.12" fill="none" width="81.65" height="35.43"/>
+	<text transform="matrix(1 0 0 1 18.0462 322.0857)"><tspan x="0" y="0" font-family="'MyriadPro-Regular'" font-size="7px">Watches Redis for new </tspan><tspan x="0" y="8.4" font-family="'MyriadPro-Regular'" font-size="7px">indicies.  Pulls each new </tspan><tspan x="0" y="16.8" font-family="'MyriadPro-Regular'" font-size="7px">indice, calculates new value </tspan><tspan x="0" y="25.2" font-family="'MyriadPro-Regular'" font-size="7px">then puts it back into Redis</tspan></text>
+	<rect x="256.52" y="317.02" fill="none" width="81.65" height="35.43"/>
+	<text transform="matrix(1 0 0 1 256.52 321.9922)"><tspan x="0" y="0" font-family="'MyriadPro-Regular'" font-size="7px">Stores a permanent list of </tspan><tspan x="0" y="8.4" font-family="'MyriadPro-Regular'" font-size="7px">indicies that have been </tspan><tspan x="0" y="16.8" font-family="'MyriadPro-Regular'" font-size="7px">received</tspan></text>
+	<rect x="278.57" y="129.76" fill="none" width="59.6" height="35.43"/>
+	<text transform="matrix(1 0 0 1 278.5727 134.7298)"><tspan x="0" y="0" font-family="'MyriadPro-Regular'" font-size="7px">Routes requests and </tspan><tspan x="0" y="8.4" font-family="'MyriadPro-Regular'" font-size="7px">sends them to client </tspan><tspan x="0" y="16.8" font-family="'MyriadPro-Regular'" font-size="7px">or server upstream</tspan></text>
+	<g>
+		<g>
+			<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="94.62" y1="282.26" x2="126.28" y2="282.26"/>
+			<g>
+				<polygon points="124.82,287.25 133.46,282.26 124.82,277.28 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="133.46" y1="293.4" x2="101.79" y2="293.4"/>
+			<g>
+				<polygon points="103.25,288.42 94.62,293.4 103.25,298.39 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="template">
+</g>
+<g id="portfolio">
+</g>
+<g id="docker">
+</g>
+<g id="Layer_1">
+</g>
+<g id="Layer_2">
+</g>
+<g id="Layer_3">
+</g>
+<g id="logo">
+</g>
+</svg>

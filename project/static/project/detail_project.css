@@ -1,0 +1,154 @@
+/* Projects - Digital Twin */
+
+.project-description {
+	margin: 8rem 2em 4em;
+}
+
+.slogan {
+	padding: 0.25em 0 0.5em;
+	width: 60%;
+	font-size: var(--ms2);
+}
+
+.time-stamp .project-title {
+	font-weight: lighter;
+}
+
+@media (min-width: 768px) {
+	.slogan {
+		font-size: var(--ms3);
+		width: 80%;
+	}
+	.time-stamp {
+		font-size: var(--ms-1);
+	}
+	.project-title {
+		font-size: var(--ms1);
+	}
+}
+
+@media (min-width: 1024px) {
+	.slogan {
+		font-size: var(--ms4);
+		width: 60%;
+	}
+	.time-stamp {
+		font-size: var(--ms0);
+	}
+
+	.project-title {
+		font-size: var(--ms2);
+	}
+}
+
+@media (max-width: 768px) {
+	.right-column > p {
+		padding: 0;
+	}
+	.left-colum {
+		height: auto;
+	}
+}
+
+/* Images and Notes */
+
+/* .image {
+	background-color: black;
+	width: 92vw;
+	height: 92vh;
+	margin-left: auto;
+	margin-right: auto;
+} */
+
+.images-notes {
+	/* position: absolute; */
+	display: flex;
+	flex-wrap: wrap;
+	/* justify-content: center; */
+	/* position: relative; */
+	background-color: black;
+	margin: 2em 2em 2em;
+	height: 100%;
+	/* margin-left: auto;
+	margin-right: auto; */
+}
+
+.note {
+	flex: 1;
+	/* position: relative; */
+	padding: 4em;
+	padding-bottom: 3em;
+	padding-left: 2em;
+	/* padding-bottom: 10%; */
+	background-color: black;
+	color: white;
+	text-align: justify;
+	font-size: 0.95em;
+	line-height: 120%;
+}
+
+.note a {
+	color: white;
+}
+
+.note i {
+	font-style: italic;
+}
+
+.image {
+	flex: 1;
+	background-color: black;
+}
+
+.image img {
+	width: 100%;
+	height: 100%;
+	padding-top: 3em;
+	padding-bottom: 3em;
+	/* right: 0; */
+	/* float: right; */
+	/* height: 75%; */
+	/* position: absolute; */
+	/* display: block; */
+	/* margin: auto; */
+	/* background-size: 150%; */
+	background-color: black;
+}
+
+@media (max-width: 1024px) {
+	.images-notes {
+		flex-direction: column-reverse;
+	}
+
+	.note {
+		padding: 2em;
+		padding-top: 0em;
+		order: 1;
+	}
+
+	.image {
+		order: 2;
+	}
+
+	.image img {
+		padding: 2em;
+		padding-bottom: 1em;
+		height: 30em;
+		/* order: 2; */
+	}
+}
+
+.reverse-img {
+	flex-direction: row-reverse;
+}
+
+.project-detail {
+	font-size: var(--ms0);
+	padding-top: 0em;
+	padding-bottom: 1em;
+	text-align: center;
+}
+
+.introduction i {
+	font-style: italic !important;
+}
