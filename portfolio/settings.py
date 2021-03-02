@@ -25,7 +25,7 @@ SECRET_KEY = '4p$@0366n($bc+8hby!m4*ru%hm+8jmpk$58ff&8k6x8py6h)i'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['chiaotw.pythonanywhere.com']
+ALLOWED_HOSTS = ['www.chiaotw.com']
 
 
 # Application definition
