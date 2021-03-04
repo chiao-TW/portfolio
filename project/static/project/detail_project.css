@@ -152,3 +152,7 @@
 .introduction i {
 	font-style: italic !important;
 }
+
+.github {
+	padding-top: 0.5em;
+}

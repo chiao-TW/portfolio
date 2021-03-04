@@ -173,15 +173,15 @@ nav {
 	padding: 0.25em 0 1em;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 100px) {
 	.heading h1 {
 		font-size: var(--ms2);
 	}
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
 	.heading h1 {
-		font-size: var(--ms3);
+		font-size: var(--ms4);
 	}
 }
 

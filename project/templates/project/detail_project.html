@@ -24,6 +24,11 @@
             <div class="tech-tags">
                 {{ project.tag|safe }}
             </div>
+            <div class="github">
+                {% if project.github %}
+                <a href="{{  project.github }}" target="_blank">○ Github Repository</a>
+                {% endif %}
+            </div>
         </div>
         <div class="right-column introduction">
             {{ project.introduction|safe }}

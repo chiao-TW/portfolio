@@ -9,6 +9,7 @@ class Project(models.Model):
     time = models.CharField(max_length=100)
     tag = models.TextField()
     introduction = models.TextField()
+    github = models.CharField(max_length=100, blank=True)
 
     content_1 = models.TextField()
     image_1 = models.FileField(upload_to='project/images/')
