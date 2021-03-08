@@ -21,13 +21,12 @@
         {{ blog.date|date:'F j Y' }}
     </h4>
 
-    <p>
+    <div class="description">
         {{ blog.description|safe }}
-    </p>
+    </div>
     <h5>
         <a href="{% url 'blog:all_blog' %}">BACK</a>
     </h5>
 </div>
-
 
 {% endblock %}

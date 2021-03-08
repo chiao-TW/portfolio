@@ -1,6 +1,6 @@
 .blog-detail {
 	margin: 5rem auto 1em;
-	width: 50%;
+	width: 55%;
 }
 
 @media (max-width: 768px) {
@@ -9,25 +9,92 @@
 	}
 }
 
-.blog-detail h1 {
+.blog-detail > h1 {
 	font-size: var(--ms4);
 }
 
-.blog-detail h4 {
+.blog-detail > h4 {
 	font-size: var(--ms0);
 	padding-top: 1em;
 	text-align: right;
 }
 
-.blog-detail p {
+.description {
 	font-size: var(--ms0);
 	padding-top: 1.5em;
 	text-align: justify;
-	line-height: 1.5;
+	line-height: 2;
 }
 
-.blog-detail h5 {
+.blog-detail > h5 {
 	font-size: var(--ms0);
 	padding-top: 3em;
 	text-align: center;
+}
+
+.Heading {
+	font-size: var(--ms1);
+	padding: 1em 0em 0.5em;
+	color: gray;
+	letter-spacing: 0.2em;
+}
+
+.Explanation {
+	font-style: italic;
+	background-color: rgb(243, 243, 243);
+	padding: 0.75em 0.5em;
+	margin: 0.4em 0em;
+	font-size: 0.9em;
+	line-height: 1.75;
+	text-align: left;
+}
+
+.English {
+	font-style: italic;
+	color: rgb(100, 100, 100);
+}
+
+ul {
+	padding: 1em 0em;
+}
+
+li {
+	list-style-position: inside;
+	padding: 0.1em 0em;
+}
+
+.list-number {
+	list-style-type: decimal;
+}
+
+.list-disc {
+	list-style-type: disc;
+}
+
+.cons::before {
+	content: "- ";
+}
+
+.pros::before {
+	content: "+ ";
+}
+
+.uri {
+	text-align: center;
+	font-style: italic;
+	padding: 0.1em 0em;
+	background-color: rgb(236, 236, 236);
+}
+
+img {
+	width: 100%;
+	height: 100%;
+	position: center;
+}
+
+.Reference {
+	font-style: italic;
+	color: rgb(100, 100, 100);
+	font-size: var(--ms-1);
+	text-align: left;
 }
