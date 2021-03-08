@@ -23,15 +23,3 @@
 .blog-content {
 	padding-bottom: 4em;
 }
-
-/* @media (max-width: 768px) {
-	.blog-heading {
-		font-size: var(--ms7);
-	}
-}
-
-@media (max-width: 576px) {
-	.blog-heading {
-		font-size: var(--ms6);
-	}
-} */
