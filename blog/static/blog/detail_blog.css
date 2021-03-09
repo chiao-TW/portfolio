@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
 .blog-detail {
 	margin: 5rem auto 1em;
 	width: 55%;
@@ -97,4 +99,13 @@ img {
 	color: rgb(100, 100, 100);
 	font-size: var(--ms-1);
 	text-align: left;
+}
+
+.Code {
+	background-color: rgb(109, 109, 109);
+	color: rgb(224, 224, 224);
+	font-size: var(--ms-2);
+	text-align: left;
+	font-family: "Roboto Mono", monospace;
+	padding: 0.5em 0.5em;
 }
