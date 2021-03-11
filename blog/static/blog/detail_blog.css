@@ -24,7 +24,7 @@
 .description {
 	font-size: var(--ms0);
 	padding-top: 1.5em;
-	text-align: justify;
+	text-align: left;
 	line-height: 2;
 }
 
