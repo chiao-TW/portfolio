@@ -3,7 +3,6 @@
 }
 
 .blog-heading {
-	/* padding: 0.5em 0.12em; */
 	width: 100%;
 	font-size: var(--ms8);
 
@@ -11,15 +10,26 @@
 	font-weight: 900;
 }
 
+@media (max-width: 576px) {
+	.blog-heading {
+		font-size: var(--ms7);
+	}
+}
+
 .blog-detail {
-	padding-top: 4em;
-	padding-left: 0.5em;
+	padding-top: 4rem;
+	padding-left: 0.5rem;
 }
 
 .blog-title {
 	font-size: var(--ms2);
+	padding-bottom: 0.5rem;
+}
+
+.blog-date {
+	padding-bottom: 1rem;
 }
 
 .blog-content {
-	padding-bottom: 4em;
+	padding-bottom: 4rem;
 }

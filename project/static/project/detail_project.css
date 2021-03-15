@@ -105,17 +105,10 @@
 	height: 100%;
 	padding-top: 3em;
 	padding-bottom: 3em;
-	/* right: 0; */
-	/* float: right; */
-	/* height: 75%; */
-	/* position: absolute; */
-	/* display: block; */
-	/* margin: auto; */
-	/* background-size: 150%; */
 	background-color: black;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 992px) {
 	.images-notes {
 		flex-direction: column-reverse;
 	}
@@ -131,10 +124,8 @@
 	}
 
 	.image img {
-		padding: 2em;
-		padding-bottom: 1em;
-		height: 30em;
-		/* order: 2; */
+		padding: 0.5rem 2rem;
+		height: 22.5rem;
 	}
 }
 
@@ -155,4 +146,14 @@
 
 .github {
 	padding-top: 0.5em;
+}
+
+.list-disc {
+	list-style-type: disc;
+}
+
+li {
+	list-style-position: inside;
+	padding: 0.1em 0em;
+	color: white;
 }

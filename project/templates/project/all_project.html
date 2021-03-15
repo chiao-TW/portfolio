@@ -27,8 +27,8 @@
 
     {% for project in projects %}
     <div class="column projects-description" id="projects-description-{{ project.id }}">
-        <div class="left-column">
-            <span class="left-column-title">KEYS</span>
+        <div class="left-column bullet-point">
+            <span class="left-column-title ">KEYS</span>
             <ul>
                 {{ project.key|safe }}
             </ul>

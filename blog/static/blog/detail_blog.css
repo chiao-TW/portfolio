@@ -5,9 +5,18 @@
 	width: 55%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
 	.blog-detail {
 		width: 70%;
+	}
+}
+
+@media (max-width: 768px) {
+	.blog-detail {
+		width: 80%;
+	}
+	.description {
+		font-size: var(--ms-1) !important;
 	}
 }
 
