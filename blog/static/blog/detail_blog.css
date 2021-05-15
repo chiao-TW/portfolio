@@ -118,3 +118,7 @@ img {
 	font-family: "Roboto Mono", monospace;
 	padding: 0.5em 0.5em;
 }
+
+a {
+	color: lightskyblue;
+}
